@@ -204,3 +204,31 @@ header .menu .color-3:hover {background: #FFDA06}
 .formulario .boton:hover{
     background: #1BA0EF;
 }
+
+/* Redes Sociales */
+
+.redes-sociales{
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.redes-sociales .fa{
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 100px;
+    color: #FFF;
+    text-align: center;
+    background: #CBCBCB;
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    border-radius: 100px;
+    transition: all .3s ease; 
+}
+
+.redes-sociales .twitter{background: #3DA5E2;}
+.redes-sociales .facebook{background: rgb(17, 50, 194);}
+.redes-sociales .instagram{background: rgb(248, 110, 18);}
+.redes-sociales .pinterest{background: rgb(230, 18, 11);}
+.redes-sociales .google-plus{background: rgb(223, 71, 71);}
