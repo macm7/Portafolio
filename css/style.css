@@ -175,8 +175,7 @@ header .menu .color-3:hover {background: #FFDA06}
 }
 
 .contacto input[type="text"],
-.contacto input[type="email"],
-.formulario textarea{
+.contacto input[type="email"]{
     padding: 15px;
     border: none;
     width: 100%;
@@ -185,10 +184,21 @@ header .menu .color-3:hover {background: #FFDA06}
 }
 
 .formulario textarea{
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
     height: 150px;
     min-width: 150px;
     max-height: 250px;
 }
+
+.formulario .infoCaract{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: #868383;
+    }
 
 .formulario .boton{
     background: #3DA5E2;
