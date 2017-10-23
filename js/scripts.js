@@ -64,3 +64,12 @@ mensaje.addEventListener('keyup', function(){
 
 });
 
+mensaje.addEventListener('keydown', function(evt){
+	// Obtenemos la teclas pulsada
+	var caracter = evt.charCode || evt.keyCode;
+	
+	if(caracter == 86 && evt.ctrlKey){
+		evt.preventDefault();
+	}
+});
+
