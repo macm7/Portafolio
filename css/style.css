@@ -189,8 +189,7 @@ header .menu .color-3:hover {background: #FFDA06}
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     height: 150px;
-    min-width: 150px;
-    max-height: 250px;
+    resize: none;
 }
 
 .formulario .infoCaract{
